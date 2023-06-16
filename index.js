@@ -9,6 +9,6 @@ const myEvents= new Myevents()
 myEvents.on('log',(msg)=>logEvent(msg))
 
 setTimeout(()=>{
-    myEvents.emit('log','hey there node events')
+    myEvents.emit('log','hey there node events am logged')
 },2000)
 
